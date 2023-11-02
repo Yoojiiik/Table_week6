@@ -48,6 +48,7 @@ body {
     text-align: center;
     height: 70%;
     width: 90%;
+    margin: 0 auto;
 }
 
 .flex-conteiner-aside {
@@ -57,12 +58,13 @@ body {
     grid-column-end: 3;
     align-items:normal;
     text-align: center;
+    padding-top: 8%;
 }
 
 .flex-conteiner-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
     justify-items: stretch;
     align-items: center;
@@ -85,6 +87,7 @@ body {
     background-color: bisque;
     width: 95%;
     height: 80%;
+    margin: 0 auto;
 }
 .flex-conteiner-content__bottom-part2 {
     display: grid;
@@ -95,6 +98,7 @@ body {
     background-color: bisque;
     width: 95%;
     height: 80%;
+    margin: 0 auto;
 }
 .flex-conteiner-content__bottom-part3 {
     display: grid;
@@ -105,4 +109,5 @@ body {
     background-color: bisque;
     width: 97.5%;
     height: 80%;
+    margin: 0 auto;
 }
