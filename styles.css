@@ -61,8 +61,8 @@ body {
 
 .flex-conteiner-content {
     display: grid;
-    grid-template-columns: 1rf 1fr;
-    grid-template-rows: 0.5rf 1rf 1rf;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
 
     justify-items: stretch;
     align-items: center;
